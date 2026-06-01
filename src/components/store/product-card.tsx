@@ -86,7 +86,7 @@ export function ProductCard({ product }: ProductCardProps) {
         </CardContent>
 
         <CardFooter className="px-4 pb-4 pt-0">
-          <Button asChild size="sm" className="w-full h-16">
+          <Button asChild size="sm" className="w-full h-10">
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-2 size-4" />
               Comprar
